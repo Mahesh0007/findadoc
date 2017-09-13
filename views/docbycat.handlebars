@@ -1,0 +1,11 @@
+<h2>List of doctors for {{doctors.category}} category</h2>
+    <ul class="docs">
+      {{#each doctors}}
+    <li>
+      <h3>{{full_name}}</h3>
+      <p>Speciality:{{category}}</p>
+      <p>Location:{{city}} {{state}}</p>
+      <p><a href="/doctors/details/{{doc_id}}">>Details</a></p>
+    </li>
+    {{/each}}
+  </ul>

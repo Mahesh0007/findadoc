@@ -1,0 +1,19 @@
+{
+  "name": "express_website",
+  "version": "1.0.0",
+  "description": "Simple Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahesh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "cassandra-driver": "^3.2.2",
+    "express": "*",
+    "express-handlebars": "^3.0.0",
+    "jade": "*",
+    "nodemailer": "*"
+  }
+}
